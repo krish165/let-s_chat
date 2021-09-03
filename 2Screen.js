@@ -2,7 +2,6 @@ function logout()
 {
     window.location="index2.html";
 }
-document.getElementById("user_name").innerHTML="Welcome to Let's chat"+" "+localStorage.getItem("user_name");
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyBNSPJiWGNnnaa-OK720vcKbeUHWTwFEI0",
@@ -16,4 +15,3 @@ const firebaseConfig = {
   
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-
